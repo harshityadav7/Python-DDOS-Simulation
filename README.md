@@ -27,6 +27,7 @@ cd python-ddos-simulation
 To start the Python HTTP server:
 
 bash
+Copy code
 python server.py
 The server will start listening on all available interfaces at port 8080. It will log incoming requests to server.log.
 
@@ -34,6 +35,7 @@ The server will start listening on all available interfaces at port 8080. It wil
 To simulate a DDoS attack against the server:
 
 bash
+Copy code
 python ddos_simulation.py
 This script will create multiple threads, each sending requests to the server to simulate a DDoS attack.
 
